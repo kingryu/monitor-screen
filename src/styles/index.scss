@@ -1,0 +1,62 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  min-width: 800px;
+  min-height: 450px;
+  overflow: hidden;
+}
+.screen-container {
+  width: 100%;
+  height: 100%;
+  background: #0f1527;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.echarts-container {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'pmzd';
+  src: url('/font/庞门正道标题体2.0.ttf');
+}
+
+@font-face {
+  font-family: 'puhui';
+  src: url('/font/AlibabaPuHuiTi-2-65-Medium.ttf');
+}
+@font-face {
+  font-family: 'puhuiMid';
+  src: url('/font/AlibabaPuHuiTi-2-85-Bold.ttf');
+}
+@font-face {
+  font-family: 'puhuiBold';
+  src: url('/font/AlibabaPuHuiTi-2-115-Black.ttf');
+}
+@font-face {
+  font-family: 'PingFang-Medium';
+  src: url('/font/PINGFANG MEDIUM.TTF');
+}
+@font-face {
+  font-family: 'PingFang-Regular';
+  src: url('/font/PINGFANG REGULAR.TTF');
+}
