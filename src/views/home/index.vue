@@ -24,6 +24,9 @@
       <div class="left-item">项目4</div>
       <div class="left-item">项目5</div>
     </div>
+    <div class="content-center">
+      <CenterMap class="contetn_center_top" title="设备分布图" />
+    </div>
     <div class="bottom-bar">
         <el-button>项目</el-button>
         <el-button>性能</el-button>
@@ -36,6 +39,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 import * as echarts from 'echarts'
+import CenterMap from './center-map.vue'
 import { useChartStore } from '@/store/charts'
 
 const chartStore = useChartStore()
@@ -214,6 +218,19 @@ onUnmounted(() => {
   width: 100%;
   height: 100%;
 }
+
+.content-center {
+  width:80%;
+  flex: 1;
+  margin: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .contetn_center-bottom {
+    height: 315px;
+  }
+}
+
 .bottom-bar {
   position: absolute;
   bottom: 10px;
